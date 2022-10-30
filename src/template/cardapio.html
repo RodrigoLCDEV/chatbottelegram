@@ -1,0 +1,11 @@
+<b>cardápio</b>
+<i>------------------------------------------------------------------------------------------------</i>
+{% for data in datas %}
+    <i><strong><code>Codígo</code> :</strong> {{data.codigo_do_produto}}</i> 
+    <i><strong><code>Descricão</code> :</strong></i> 
+    <i></i>{{data.descricao}}</i> 
+    <i><strong><code>Valor</code> :</strong> R${{data.preco}}</i>     
+    <i>-----------------------------------------------------------------------------------------------</i>    
+{% endfor %}
+<br>
+
