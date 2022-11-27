@@ -11,6 +11,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InputTextMessageContent, KeyboardButton, Message,
                             ReplyKeyboardMarkup)
 from tinydb import Query, TinyDB
+
 from utils.botoes import Botao
 from utils.dialogo import Comandos, MensagemInicial, Menssagem
 from utils.jinja import JinjaTemplate
@@ -23,7 +24,7 @@ app = Client('cyberBurguerBot',
              bot_token=getenv('TOKEN_BOT_TELEGRAM'))
 
 class Arquivos:
-    # Classe SETAR arquivosas
+    # Classe SETAR arquivos
     def __init__(self):
         self.TEMPLATE_INICIAL = Path(__file__).parent / 'template/menssagem_inicial.html'
         self.TEMPLATE_CARDAPIO = Path(__file__).parent /'template/cardapio.html'
