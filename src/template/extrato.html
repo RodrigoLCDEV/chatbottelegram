@@ -1,0 +1,19 @@
+<b>Total a pagar</b>
+<i>------------------------------------------------------------------------------------------------</i>
+{% for data in datas %}
+    <i><strong><code>Codígo: </code></strong> {{data["codigo_do_produto"]}}</i>     
+    <i><strong><code>Descricão: </code></strong></i> 
+    <i></i>{{data["descricao"]}}: </i>     
+    <i><strong><code>Quantidade: </code></strong> {{data["quantidade_pedido"]}}</i>    
+    <i><strong><code>Valor: </code></strong> R${{data["preco"]}}</i> 
+    <br> 
+    <i><strong><code>SubTotal</code></strong> R${{data["valor_total"]}}</i>   
+    <br>    
+    <i>----------------------------------------------------------------------------------------------</i>    
+{% endfor %}
+    <i>--------------------------Agradecemos sua preferência--------------------------</i>
+<br>
+<b>Total: R${{totais}}</b>
+<br>
+ 
+<b>Para consultar o sattus do pedido, digite o comando /StatusPedido</b>

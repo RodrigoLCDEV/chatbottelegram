@@ -9,7 +9,8 @@ class Comprementar:
         self._MESSAGEM_2: str = 'Boa tarde'
         self._MESSAGEM_3: str = 'Boa noite'
         self._data_atual = datetime.datetime.now().hour
-
+    
+    @property
     def pessoa(self):
         if self._data_atual < 12:
             return self._MESSAGEM_1

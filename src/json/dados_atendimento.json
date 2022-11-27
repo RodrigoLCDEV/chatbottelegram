@@ -1,0 +1,49 @@
+{
+    "_default": {
+        "1": {
+            "id_cliente": 5376776124,
+            "hora": "11/26/2022, 21:10:20",
+            "status_pedido": false,
+            "status_quantidade": true,
+            "status_cancelamento": true,
+            "status_finalizacao_pedido": true
+        }
+    },
+    "DadosPessoais": {
+        "1": {
+            "id_cliente": 5376776124,
+            "nome_complete": "Rodrigo",
+            "telefone": "9 - 9999 - 9999",
+            "endereco": "Rua teste 23 , Bairro 23"
+        }
+    },
+    "Pedido": {
+        "1": {
+            "id": 3,
+            "nome": "PHP BURGER",
+            "codigo_do_produto": 2,
+            "descricao": "Dois deliciosos burguers de frango, com bacon, alface, queijo e maionese",
+            "preco": "50.00",
+            "id_cliente": 5376776124,
+            "quantidade_pedido": 2,
+            "valor_total": "100,00"
+        },
+        "2": {
+            "id": 6,
+            "nome": "ANGULAR BURGER",
+            "codigo_do_produto": 5,
+            "descricao": "Dois delicosos burgers bovinos, cheddar e cebola caramelizada",
+            "preco": "30.00",
+            "id_cliente": 5376776124,
+            "quantidade_pedido": 1,
+            "valor_total": "30,00"
+        }
+    },
+    "Registro": {
+        "2": {
+            "id_cliente": 5376776124,
+            "registro": 2,
+            "codigo_do_produto": 5
+        }
+    }
+}
